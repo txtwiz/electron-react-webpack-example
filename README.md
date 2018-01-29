@@ -23,7 +23,7 @@ npm run prod
 
 ## Package
 Create the executable in builds/
-Run in linux to create migration, in windows to create migration.exe or in mac os x to create migration.app.
+Run package-linux to create executable u-sdk-show, or package-win to create u-sdk-show.exe.
 ```
 npm run package-linux
 npm run package-win
