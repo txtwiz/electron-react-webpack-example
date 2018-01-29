@@ -1,0 +1,10 @@
+.settings/*
+target/*
+.classpath
+.project
+/target/
+app/node_modules/
+app/*npm-debug.log
+app/*.DS_Store
+app/dist/
+app/builds/
