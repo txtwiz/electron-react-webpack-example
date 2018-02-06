@@ -21,10 +21,10 @@ module.exports = {
     rules: [
       {
         test: /\.scss$/,
-        use: [{ 
-          loader: 'style-loader' 
-        }, { 
-          loader: 'css-loader' 
+        use: [{
+          loader: 'style-loader'
+        }, {
+          loader: 'css-loader'
         }, {
           loader: 'sass-loader'
         }],
@@ -48,7 +48,7 @@ module.exports = {
     ]
   },
   target: 'electron-renderer',
-  plugins: [ 
+  plugins: [
     new HtmlWebpackPlugin({
       'title': 'U-SDK'
     }),
